@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RequestR.Extensions.Ninject", "RequestR.Extensions.Ninject\RequestR.Extensions.Ninject.csproj", "{D603E55E-2A5E-40E9-A95F-888084606F02}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RequestR.Demo.Ninject", "RequestR.Demo\RequestR.Demo.Ninject.csproj", "{3F79E2EC-E663-417E-9D23-BC3568680D2F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D603E55E-2A5E-40E9-A95F-888084606F02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D603E55E-2A5E-40E9-A95F-888084606F02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D603E55E-2A5E-40E9-A95F-888084606F02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D603E55E-2A5E-40E9-A95F-888084606F02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F79E2EC-E663-417E-9D23-BC3568680D2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F79E2EC-E663-417E-9D23-BC3568680D2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F79E2EC-E663-417E-9D23-BC3568680D2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F79E2EC-E663-417E-9D23-BC3568680D2F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {68416ACF-85B5-45E0-A323-908463C4C5FA}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net5.0</TargetFramework>
+        <AssemblyName>DustInTheWind.RequestR.Demo.Ninject</AssemblyName>
+        <RootNamespace>DustInTheWind.RequestR.Demo.Ninject</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Ninject" Version="3.3.4" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\RequestR.Extensions.Ninject\RequestR.Extensions.Ninject.csproj" />
+    </ItemGroup>
+
+</Project>
