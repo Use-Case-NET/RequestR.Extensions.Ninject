@@ -4,7 +4,7 @@
 
 ### 1) Setup Services
 
-**Note**: Include Ninject nuget package.
+**Note**: Include `RequestR.Extensions.Ninject` nuget package.
 
 ```charp
 IKernel kernel = new StandardKernel();
@@ -24,5 +24,5 @@ requestBus.RegisterAllHandlers();
 
 ```csharp
 PresentProductsRequest request = new PresentProductsRequest();
-List<Product> products = requestBus.Send<PresentProductsRequest, List<Product>>(request);
+MyResponse response = requestBus.Send<MyRequest, MyResponse>(request);
 ```
