@@ -6,7 +6,7 @@
 
 **Note**: Include Ninject nuget package.
 
-```charp
+```csharp
 IKernel kernel = new StandardKernel();
 kernel.AddRequestBus();
 ```
@@ -15,7 +15,7 @@ kernel.AddRequestBus();
 
 Retrieve the `RequestBus` instance and call the `RegisterAllHandlers()` method.
 
-```charp
+```csharp
 RequestBus requestBus = kernel.Get<RequestBus>();
 requestBus.RegisterAllHandlers();
 ```
